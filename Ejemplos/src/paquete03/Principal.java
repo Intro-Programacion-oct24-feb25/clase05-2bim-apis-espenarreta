@@ -24,6 +24,9 @@ public class Principal {
         int multiplicacion = OperadorTres.obtenerMultiplicacion(valorA, 
                                                                 valorB);
         
+        // Se llama a un procedimiento llamado imprimirMensaje que esta en el
+        // paquete06 y la clase Imprimir para presentar un mensaje enviandole
+        // parametros desde la clase principal
         Imprimir.imprimirMensaje(valorA, valorB, suma, multiplicacion);
     }
 }
