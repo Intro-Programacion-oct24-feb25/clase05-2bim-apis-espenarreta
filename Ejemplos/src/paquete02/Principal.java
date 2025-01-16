@@ -15,7 +15,7 @@ public class Principal {
         int valorB = Operador.obtenerNumero();
         int suma = Operador.obtenerSuma(valorA, valorB);
         
-        
+
         Operador.presentarDatos(valorA, valorB, suma);
     }
 }
