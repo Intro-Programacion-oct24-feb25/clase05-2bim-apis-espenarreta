@@ -26,6 +26,8 @@ public class Ejemplo03 {
             System.out.printf("%d ", valores[i]);
         }
         System.out.println("\n");
+        
+        presentarDatos(valores);
     }
     
     public static int[] obtenerValores(int a, int b) {
@@ -44,6 +46,13 @@ public class Ejemplo03 {
     
     public static int obtenerSuma(int a, int b){
         return a + b;
+    }
+    
+    public static void presentarDatos(int[] v) {
+        for (int i = 0; i < v.length; i++) {
+            System.out.printf("%d ", v[i]);
+        }
+        System.out.println("\n");
     }
     
 }
